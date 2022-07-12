@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h3>Today's News</h3>
+
+    {% for i in articles %}
+
+        <div class="">
+
+        </div>
+        <h4>{{ i.source.name }}</h4>
+        <p1>{{ i.author }}</p1>
+        <p1>{{ i.title }}</p1>
+        <h5>{{ i.description }}</h5>
+        <hr/>
+    {% endfor %}
+
+
+
+</body>
+</html>
